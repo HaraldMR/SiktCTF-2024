@@ -1,0 +1,19 @@
+name: pwnbox
+author: Nephos
+category: pwn
+description: Pwn the server to get the flag, the server-ports hide between 7000 and 8000
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+image: .
+connection_info: challenges.ctf.sikt.no
+flags:
+    # A static case sensitive flag
+    - SiktCTF{Do_You_Know_How_To_Pwn?}
+    - Do_You_Know_How_To_Pwn?
+requirements:
+    - Welcome
+version: "2.0"

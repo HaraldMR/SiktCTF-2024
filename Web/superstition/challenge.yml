@@ -1,0 +1,33 @@
+name: superstition
+author: Nephos
+category: Web
+description: find flag, it lies somewhere on the server.
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+image: .
+protocol: http
+connection_info: http://challenges.ctf.sikt.no:5001/?page=home.php
+flags:
+    # A static case sensitive flag
+    - SiktCTF{"Make_me_a_generic_php_web-page_please"}
+    - "Make_me_a_generic_php_web-page_please"
+topics:
+    - Web Exploitation
+    - Directory Traversal
+    - pwn
+tags:
+    - web
+    - php
+    - pwn
+hints:
+    - {
+        content: "can you load some other file on the server in the adress bar?",
+        cost: 50
+    }
+requirements:
+    - Welcome
+version: "1.0"

@@ -1,0 +1,40 @@
+name: SeekerOfRuin
+author: Nephos
+category: Cryptography
+description: 
+  "Hey You!
+  Can you find out what this means?
+  
+  The flag is a bit wierd, regex is helping you. Type what you find"
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+files:
+    - SeekerOfRuin.png
+flags:
+    - {
+        type: "static",
+        contents: "Aim Capture The Flag Fox With Green Tunic",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "SiktCTF{FoxWithGreenTunic}",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "FoxWithGreenTunic",
+        data: "case_insensitive",
+      }
+    - {
+        type: "regex",
+        content: "(.*)FoxWithGreenTunic(.*)",
+        data: "case_insensitive",
+      }
+requirements:
+    - Welcome
+version: "1.0"

@@ -1,0 +1,8 @@
+services:
+  squire:
+    build: .
+    ports:
+      - "5003:80"
+    volumes:
+      - .:/app
+    restart: always

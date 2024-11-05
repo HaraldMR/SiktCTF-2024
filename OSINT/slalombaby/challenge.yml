@@ -1,0 +1,40 @@
+name: slalombaby
+author: Nephos
+category: OSINT
+description: 
+  "I went to this mountain some years ago, do you know where it is? 
+  
+  Flag format: SiktCTF{themountain}"
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    - {
+        type: "static",
+        content: "SiktCTF{åre}",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "åre",
+        data: "case_insensitive",
+      }
+    - {
+        type: "regex",
+        content: "(.*)åre(.*)",
+        data: "case_insensitive",
+      }
+files:
+    - slalombaby.jpg
+hints:
+    - {
+        content: "it is also the name of the resort and city",
+        cost: 50,
+    }
+requirements:
+    - Welcome
+version: "1.0"

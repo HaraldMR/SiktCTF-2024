@@ -1,0 +1,20 @@
+name: snak
+author: Nephos
+category: Misc
+description: Snake has gone turn-based, but the game takes too long...
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+image: .
+host: ssh://ubuntu@ec2-51-20-193-251.eu-north-1.compute.amazonaws.com
+connection_info: nc challenges.ctf.sikt.no 5010
+flags:
+    # A static case sensitive flag
+    - SiktCTF{snak:_hiss_hiss_gratz_u_are_good_at_game!!!}
+    - snak:_hiss_hiss_gratz_u_are_good_at_game!!!
+requirements:
+    - Welcome
+version: "1.0"

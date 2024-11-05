@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('send_static', path='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="brand-logo">Our Brand New Website!</a>
+            <ul class="nav-links">
+                <li><a href="/upload">Upload Image</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="container">
+            <h1>Welcome to the new website</h1>
+            <p>Now with file upload capabilities!</p>
+            <a href="/upload" class="btn">Get Started</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>© 2024 repo.</p>
+        </div>
+    </div>
+</body>
+</html>

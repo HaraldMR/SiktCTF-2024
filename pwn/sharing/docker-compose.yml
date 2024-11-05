@@ -1,0 +1,7 @@
+services:
+  sharing:
+    build: .
+    ports:
+      - "5009:873"
+    container_name: sharing
+    restart: always

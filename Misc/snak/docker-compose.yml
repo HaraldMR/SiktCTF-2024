@@ -1,0 +1,7 @@
+services:
+  snak:
+    build: .
+    ports:
+      - "5010:1337"
+    container_name: snak
+    restart: always

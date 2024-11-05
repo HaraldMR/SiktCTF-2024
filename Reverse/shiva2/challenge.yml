@@ -1,0 +1,23 @@
+name: shiva2
+author: Nephos
+category: Reverse
+description: 
+    "There are three seperate flags on in this android app. find the second flag.
+
+    First flag is plain
+    Second flag is waiting for your signature
+    Third flag is not positive"
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    # A static case sensitive flag
+    - SiktCTF{TheFinalDaysAreUponUs}
+files:
+    - app/shiva.apk
+requirements:
+    - Welcome
+version: "1.0"

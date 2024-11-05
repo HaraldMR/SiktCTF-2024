@@ -1,0 +1,27 @@
+name: audiodb
+author: Nephos
+category: Web
+description: My little brother made a new audio database and player site. Hope its secure...
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+image: .
+protocol: http
+connection_info: http://challenges.ctf.sikt.no:5006/
+flags:
+    # A static case sensitive flag
+    - SiktCTF{helpimstuckintheplaylist}
+    - helpimstuckintheplaylist
+    - SIKTCTF HELPIMSTUCKINTHEPLAYLIST
+    - SIKTCTFHELPIMSTUCKINTHEPLAYLIST
+    - SIKTCTF{HELPIMSTUCKINTHEPLAYLIST}
+topics:
+    - Web Exploitation
+tags:
+    - web
+requirements:
+    - Welcome
+version: "1.0"

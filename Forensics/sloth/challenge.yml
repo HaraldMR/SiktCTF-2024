@@ -1,0 +1,18 @@
+name: sloth
+author: Ivar Friheim
+category: Forensics
+description: Some files were stored on an old usb-stick, but this was unforunately formatted. If there just was some way to find and retrieve these files, it could be possible to find a flag...
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+files:
+    - disk.zip
+flags:
+    - SiktCTF{track}
+    - track
+requirements:
+    - Welcome
+version: "1.0"

@@ -1,0 +1,21 @@
+name: testudines
+author: Nephos
+category: Stegonography
+description: Look at these cute turtles (tortoises?) i found on the interwebs. 🐢🐢🐢
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    # A static case sensitive flag
+    - SIKTCTF{TUTEL}
+    # Add case insensitive?
+    - SiktCTF{TUTEL}
+files:
+    - tortoise.jpeg
+    - turtle.jpeg
+requirements:
+    - Welcome
+version: "1.0"

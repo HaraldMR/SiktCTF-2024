@@ -1,0 +1,50 @@
+name: skråstrek3
+author: Nephos
+category: OSINT
+description: 
+    "This challenge is in norwegian for some extra *spice* 😉
+    Denne hytta har jeg sett før, men jeg vet ikke hvor. Kan du finne ut hva hytta heter?
+    
+    Flag format: SiktCTF{locationofimage}"
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    - {
+        type: "static",
+        content: "SiktCTF{høiåshytta}",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "høiåshytta",
+        data: "case_insensitive",
+      }
+    - {
+        type: "regex",
+        content: "(.*)høiåshytta(.*)",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "SiktCTF{høiås}",
+        data: "case_insensitive",
+      }
+    - {
+        type: "static",
+        content: "høiås",
+        data: "case_insensitive",
+      }
+    - {
+        type: "regex",
+        content: "(.*)høiås(.*)",
+        data: "case_insensitive",
+      }
+files:
+    - hytte.jpg
+requirements:
+    - Welcome
+version: "1.0"

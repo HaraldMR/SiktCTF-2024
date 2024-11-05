@@ -1,0 +1,19 @@
+name: Copilot
+author: Nephos
+category: Stegonography
+description: Oh, news from microsoft. What could this be about?
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    # A static case sensitive flag
+    - SiktCTF{Walter_Does_Not_Enjoy_New_AI_Laptops}
+    - Walter_Does_Not_Enjoy_New_AI_Laptops
+files:
+    - Copilot.gif
+requirements:
+    - Welcome
+version: "1.0"

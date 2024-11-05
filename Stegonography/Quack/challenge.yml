@@ -1,0 +1,21 @@
+name: Quack
+author: Nephos
+category: Stegonography
+description: "A duck handed me this image and said: Nak? Naknak. Naknak nak! Nananak Nak Naknak Naknak. Naknak nak. Nananak Nak Naknaknak Nak? Naknak Nak. Naknak nak? Nananak Nak Naknaknak Nananak Naknak nak? Naknak Nak?
+
+I dont get it, can you figure out what that means?"
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    # A static case sensitive flag
+    - SiktCTF{IM_mULTil1NGU4l_MY_M0TH3R_TOuNG3_I5_DUC5p34k}
+    - IM_mULTil1NGU4l_MY_M0TH3R_TOuNG3_I5_DUC5p34k
+files:
+    - Quack.png
+requirements:
+    - Welcome
+version: "1.0"

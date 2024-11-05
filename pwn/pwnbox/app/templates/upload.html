@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="{{ url_for('send_static', path='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="brand-logo">Our Brand New Website!</a>
+            <ul class="nav-links">
+                <li><a href="/upload">Upload Image</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="upload-section">
+            <h1>Upload Image</h1>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="file-field input-field">
+                    <div class="btn">
+                        <span>File</span>
+                        <input type="file" name="file" id="fileInput">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                    </div>
+                </div>
+                <button type="submit" class="btn">Upload</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>© 2024 repo.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var formData = new FormData();
+            var fileInput = document.getElementById('fileInput');
+            formData.append('file', fileInput.files[0]);
+            
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                var responseMessage = document.getElementById('responseMessage');
+                responseMessage.innerHTML = '<p>' + data.message + '</p><p>File URL: <a href="' + data.url + '">' + data.url + '</a></p>';
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

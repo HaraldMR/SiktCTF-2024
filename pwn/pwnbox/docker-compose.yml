@@ -1,0 +1,8 @@
+services:
+  ctf_challenge:
+    build: .
+    ports:
+      - "7203:80"
+      - "7204:22"
+    container_name: pwnbox
+    restart: always

@@ -1,0 +1,18 @@
+name: urgent
+author: Nephos
+category: Forensics
+description: Someone is trying to hack my server, the username and password for it is ctfuser. They stole my important text file, please get it back for me.
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+host: ssh://ubuntu@ec2-51-20-193-251.eu-north-1.compute.amazonaws.com
+connection_info: ssh ctfuser@challenges.ctf.sikt.no -p 2200
+flags:
+    - SiktCTF{WHo_is_TH3_Re4L_HaCk3R?}
+    - WHo_is_TH3_Re4L_HaCk3R?
+requirements:
+    - Welcome
+version: "1.0"

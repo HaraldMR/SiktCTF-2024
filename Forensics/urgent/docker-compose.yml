@@ -1,0 +1,15 @@
+services:
+  ssh:
+    build: ./ssh
+    ports:
+      - "2200:22"
+    volumes:
+      - ./logs:/home/ctfuser/logs
+    restart: always
+
+  ftp:
+    build: ./ftp
+    ports:
+      - "2121:21"
+      - "10000-10010:10000-10010"
+    restart: always

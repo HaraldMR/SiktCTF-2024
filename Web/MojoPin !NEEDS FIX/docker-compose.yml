@@ -1,0 +1,6 @@
+services:
+  mojo:
+    build: .
+    ports: 
+      - 5004:80
+    container_name: MojoPin

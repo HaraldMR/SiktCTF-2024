@@ -1,1 +1,1 @@
-# SiktCTF-2024
+# Challenges and writeups from SiktCTF 2024

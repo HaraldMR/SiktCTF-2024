@@ -1,0 +1,19 @@
+name: zucchini
+author: Nephos
+category: Misc
+description: I dont know about you, but i find zucchinis to be terribly plain. And who decided to name them that, anyways?
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+flags:
+    # A static case sensitive flag
+    - SiktCTF{Summer_Squash_B3Krn5I22dRC215FijweC}
+    - Summer_Squash_B3Krn5I22dRC215FijweC
+requirements:
+    - Welcome
+files:
+    - zucchini
+version: "1.0"
