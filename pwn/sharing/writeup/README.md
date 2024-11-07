@@ -1,11 +1,5 @@
-# sharing
-pwn the service to get the flag
+# Writeup
 
-## Flag
-SiktCTF{Sh4r1nG_1s_C4r1nG}
+A great writeup and solution from [fluffyhake](https://github.com/fluffyhake) is avaliable on their GitHub repo for your enjoyment: https://github.com/fluffyhake/SiktCTF-2024/tree/main/pwn/sharing
 
-## Writeup
-
-## TODO
-make sure the hash is crackable.
-make sure you can auth to the protected share.
+They have solved it the intended way.
