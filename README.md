@@ -59,4 +59,4 @@ This repository contains source code for all challenges plus writeups from **Sik
 ### Welcome
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
-| [Challenge](Welcome/challenge.yml)      | [Nephos](https://github.com/HaraldMR) | 117    |
+| [Welcome](/Welcome/)      | [Nephos](https://github.com/HaraldMR) | 117    |
