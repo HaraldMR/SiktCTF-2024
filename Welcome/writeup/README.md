@@ -1,9 +1,5 @@
-# Welcome
-Welcome to SiktCTF 2024! To get started, solve this short challenge first.
+# Writeup
 
-Read the rules and find the first flag.
+The challenge tells you to read the rules. which we can find on the ctfd website in the nav bar.
 
-*Join our discord for announcements, information, discussions and questions about the CTF and the challenges: https://discord.gg/xazvpyS4*
-
-## Flag
-SiktCTF{Welcome_To_The_CTF!_Have_Fun!}
+Rule 8 says that the flag is in a comment on the page. Inspecting the html shows us the flag.

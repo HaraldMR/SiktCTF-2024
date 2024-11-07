@@ -1,12 +1,4 @@
-## superstition
+## Reverse
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
-| superstition        | [Nephos](https://github.com/HaraldMR) | 35     |
----
-### Description
-
-<blockquote>
-
-find flag, it lies somewhere on the server.
-
-</blockquote>
+| [Shiva1&2&3](Reverse/shiva1&2&3)                  | [Nephos](https://github.com/HaraldMR) | 55     |

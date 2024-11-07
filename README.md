@@ -37,9 +37,7 @@ This repository contains source code for all challenges plus writeups from **Sik
 ### Reverse
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
-| [Shiva](Reverse/shiva)                  | [Nephos](https://github.com/HaraldMR) | 55     |
-| [Shiva 2](Reverse/shiva2)               | [Nephos](https://github.com/HaraldMR) | 55     |
-| [Shiva 3](Reverse/shiva3)               | [Nephos](https://github.com/HaraldMR) | 55     |
+| [Shiva1&2&3](Reverse/shiva1&2&3)                  | [Nephos](https://github.com/HaraldMR) | 55     |
 
 ### Steganography
 | Name                         | Author                                             | Solves |

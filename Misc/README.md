@@ -1,12 +1,5 @@
-## superstition
+## Misc
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
-| superstition        | [Nephos](https://github.com/HaraldMR) | 35     |
----
-### Description
-
-<blockquote>
-
-find flag, it lies somewhere on the server.
-
-</blockquote>
+| [Snak](Misc/snak)                     | [Nephos](https://github.com/HaraldMR) | 33     |
+| [Zucchini](Misc/zucchini)             | [Nephos](https://github.com/HaraldMR) | 46     |

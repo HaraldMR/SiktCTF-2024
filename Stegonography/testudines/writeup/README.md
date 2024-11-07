@@ -1,6 +1,4 @@
 # Writeup
-<details>
-<summary> View writeup</summary>
 
 To solve this challenge you need to look at the two images with strings or other steg tools.
 using strings command in linux will show you that there is some code appended to each of the jpeg files.
@@ -214,4 +212,3 @@ drawTutel(t2)
 
 done()
 ```
-</details>

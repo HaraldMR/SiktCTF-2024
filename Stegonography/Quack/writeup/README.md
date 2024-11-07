@@ -1,2 +1,3 @@
 # Writeup
-The description includes a message written in Nak Nak (Duckspeak), which can be decoded to "im in the red". Looking at the image, there seems to be some artifacts at the very top of the image in red color. Using steg tools, we can view the red bitmaps, and can see that something is encoded into the image bits. We can extract the first 7 bits of the red bits to get a Base64 encoded message. This is also encoded Nak Nak, which gives the flag.
+
+The description includes a message written in Nak Nak (Duckspeak), which can be decoded to "im in the red". Looking at the image, there seems to be some artifacts at the very top of the image in red color. Using steg tools, we can view the red bits, and can see that something is encoded into the image bits. We can extract the first 7 bits of the red bits to get a Base64 string. This is also decoded to Nak Nak, which gives the flag.
