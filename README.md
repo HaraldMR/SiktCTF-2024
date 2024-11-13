@@ -1,7 +1,6 @@
 # SiktCTF 2024
 
 This repository contains source code for all challenges plus writeups from **SiktCTF 2024**.
-*These challenges were created for Sikt, now shared here with their permission.*
 
 ## Challenges
 
@@ -59,3 +58,6 @@ This repository contains source code for all challenges plus writeups from **Sik
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
 | [Welcome](/Welcome/)      | [Nephos](https://github.com/HaraldMR) | 117    |
+
+
+*These challenges were created for Sikt, now shared here with their permission.*
