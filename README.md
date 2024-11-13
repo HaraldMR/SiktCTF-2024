@@ -1,6 +1,7 @@
 # SiktCTF 2024
 
 This repository contains source code for all challenges plus writeups from **SiktCTF 2024**.
+*These challenges were created for Sikt, now shared here with their permission.*
 
 ## Challenges
 
@@ -13,7 +14,7 @@ This repository contains source code for all challenges plus writeups from **Sik
 | Name                         | Author                                             | Solves |
 |------------------------------|----------------------------------------------------|--------|
 | [BoundForEarth](Forensics/BoundForEarth) | [Nephos](https://github.com/HaraldMR) | 47     |
-| [Sloth](Forensics/sloth)               | [Ivar](https://no.linkedin.com/in/ivar-friheim-5083232) | 23     |
+| [Sloth](Forensics/sloth)               | Ivar | 23     |
 | [Urgent](Forensics/urgent)              | [Nephos](https://github.com/HaraldMR) | 33     |
 
 ### Misc
