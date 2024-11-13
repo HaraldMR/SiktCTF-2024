@@ -60,4 +60,4 @@ This repository contains source code for all challenges plus writeups from **Sik
 | [Welcome](/Welcome/)      | [Nephos](https://github.com/HaraldMR) | 117    |
 
 
-*These challenges were created for Sikt, now shared here with their permission.*
+*These challenges were created for Sikt, shared on GitHub with their permission.*
